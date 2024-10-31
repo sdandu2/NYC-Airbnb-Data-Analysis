@@ -1,5 +1,8 @@
+# Core Libraries
 pandas
 numpy
 matplotlib
 seaborn
-scikit-learn
+
+# Kaggle API for dataset download
+kaggle
