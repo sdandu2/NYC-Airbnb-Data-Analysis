@@ -1,14 +1,18 @@
-# NYC-Airbnb-Data-Analysis
-This project explores Airbnb listing data from New York City to uncover insights into pricing trends, popular neighborhoods, host activity, and customer preferences.
+# Airbnb NYC Data Analysis
 
-## Project Structure
-- **data/**: Contains raw and processed datasets used in the analysis.
-- **src/**: Python scripts for data cleaning, feature engineering, and analysis.
-- **notebooks/**: Jupyter notebooks detailing the EDA and preliminary analysis.
-- **outputs/**: Generated figures, charts, and tables from the analysis.
+This project examines Airbnb listing data in New York City to explore trends in pricing, neighborhood popularity, room types, and seasonal demand. Visualizations and data analysis techniques reveal insights into market dynamics and potential factors influencing Airbnb pricing and reviews in NYC.
 
-## Getting Started
-### Prerequisites
-Install the necessary Python packages with:
+## Project Overview
+1. **Data Acquisition**: The dataset is downloaded from Kaggle's Airbnb NYC dataset.
+2. **Data Analysis and Visualization**:
+   - Summary statistics and missing data handling.
+   - Price distribution analysis.
+   - Average price by neighborhood.
+   - Monthly review trends for seasonality insights.
+   - Geographic distribution of listings across neighborhoods.
+   - Identification of high-price listings and top hosts.
+
+## Requirements
+Install the required libraries with:
 ```bash
 pip install -r requirements.txt
